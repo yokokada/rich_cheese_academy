@@ -1,0 +1,659 @@
+/* ここから下に記載していく */
+/* 全体 */
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* ヘッダー 全体と２要素*/
+.header{
+    /* background-color: antiquewhite; */
+    width: auto;
+    height: 121px;
+    display: flex;
+}
+.header__logo{
+    text-align: left;
+    margin-right: 150px;
+    display: flex;
+    align-items: center;
+}.header__index{ /* background-color: rgb(233, 222, 222); */
+    height: 21px;
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+}
+.header__index a{
+    font-size: 21px;
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: aquamarine; */
+    width: auto;
+    height: auto;
+}
+/* heroは全体と２要素 */
+.hero{
+    width: auto;
+    background-image: url(../img/mainbg.png);
+    height: 400px;
+    background-position: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.hero__text{
+    /* background-color: bisque; */
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    width: 800px;
+    padding: 100px;
+    margin: 0 auto;
+}
+.hero__catchphraze{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    border-color: black; */
+}
+.hero__catchphraze.change-color {
+    color: red;
+  }
+
+/* .eachTextAnime p{
+  text-align: center;
+  margin: 20px 0;
+  font-size:1.5rem;
+}
+
+.eachTextAnime span{opacity: 0;}
+.eachTextAnime.appeartext span{ animation:text_anime_on 1s ease-out forwards; }
+@keyframes text_anime_on {
+  0% {opacity:0;}
+  100% {opacity:1;}
+} */
+
+
+.hero__title{
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
+}
+/* aboutは全体と２要素 */
+.about{
+    /* background-color: pink; */
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+/* textはtitle,headline,sentenceの要素に分ける */
+/* text全体 */
+.about__text{
+    text-align: center;
+}
+/* title */.about__title{
+    /* background-color: rgb(38, 81, 119); */
+    color: rgb(215, 215, 14);
+    font-size: 24px;
+    font-weight: bold;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+/* headline */
+.about__headline{
+    font-size: 18px;
+    /* background-color: aliceblue; */
+    margin-top: 30px;
+
+}
+/* 本文 */
+.about__sentence_1{
+    /* background-color: aquamarine; */
+    font-size: 16px;
+    margin-top: 60px; 
+}
+.about__sentence_1 p{
+    font-size: 16px;
+}
+.about__sentence_2{
+    font-size: 16px;
+    margin-top: 40px;
+    line-height: 25px; 
+}
+.about__sentence_3{
+    font-size: 16px;
+    margin-top: 40px;
+    line-height: 25px; 
+
+}
+.about__sentence_4{
+    font-size: 16px;
+    margin-top: 40px;
+    line-height: 25px; 
+    margin-bottom: 80px;
+}
+/* スクロールできるようにした */
+.about__image{
+    display: flex;
+    overflow: scroll;
+}
+/* 追加した写真を他の写真のPXにあわせる　大きさは詳細で確認 */
+/* 以下で変更しても元の写真のお大きさを変えないとダメだったので、元の画像の大きさ変更を実施 */
+/* .about_image4{
+    width: 385px;
+    height: 255px;
+}
+.about_image5{
+    width: 385px;
+    height: 255px;
+}
+.about_image6{
+    width: 385px;
+    height: 255px;
+} */
+
+/* courseは全体と2要素 */
+.course{
+    /* background-color: brown; */
+    width: 1200px;
+    height: auto;
+}
+/* courseテキスト全体 */
+.course__text{
+    text-align: center;
+}
+/* textは２要素 */
+.corse__text__title{
+    color: rgb(215, 215, 14);
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.corse__text__sentense{
+    font-size: 16px;
+    margin-bottom: 60px;
+    line-height: 25px; 
+}
+/* courseboxは６つ、それぞれに名前つける */
+/* BOX全体 */
+
+.course__box1{
+    background-image: url(../img/course_01.jpg);;
+    width: 600px;
+    height: 400px;
+
+}
+.course__box2{
+    background-color: rgb(251, 251, 247);
+    width: 600px;
+    height: 400px;
+}
+.course__box2_headeline{
+    font-size: 24px;
+    padding-top: 120px;
+    padding-left: 50px;
+    font-weight: bold;
+}
+.course__box2_sentense{
+    font-size: 16px;
+    line-height: 25px; 
+    margin-top: 40px;
+    padding-left: 50px;
+}
+.course__box3{
+    background-color: rgb(251, 251, 247);
+    width: 480px;
+    height: 400px;
+    padding-left: 120px;
+
+}
+/* ⭐︎全部右に寄っちゃってるから修正必要 */
+.course__box3_headeline{
+    font-size: 24px;
+    padding-top: 120px;
+    padding-right: 50px;
+    font-weight: bold;
+    text-align: left;
+    
+}
+.course__box3_sentense{
+    font-size: 16px;
+    line-height: 25px; 
+    margin-top: 40px;
+    padding-right: 50px;
+    text-align: left;
+}
+.course__box4{
+    background-image: url(../img/course_02.jpg);;
+    width: 600px;
+    height: 400px;
+
+}
+.course__box5{
+    background-image: url(../img/course_03.jpg);;
+    width: 600px;
+    height: 400px;
+}
+.course__box6{
+    background-color: rgb(251, 251, 247);
+    width: 600px;
+    height: 400px;
+}
+.course__box6_headeline{
+    font-size: 24px;
+    padding-top: 120px;
+    padding-left: 50px;
+    font-weight: bold;
+}
+.course__box6_sentense{
+    font-size: 16px;
+    line-height: 25px; 
+    margin-top: 40px;
+    padding-left: 50px;
+}
+.course__box_row1{
+    display: flex;
+}
+.course__box_row2{
+    display: flex;
+}
+.course__box_row3{
+    display: flex;
+}
+/* newsは全体と３要素 */
+.news{
+    /* background-color: aquamarine; */
+    width: auto;
+    height: auto;
+    margin-bottom: 60px;
+}
+.news__title{
+    text-align: center;
+}
+/* タイトル２要素 */
+.news__title_en{
+    color: rgb(215, 215, 14);
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 60px;
+}
+.news__title_jn{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+/* 幅300×700のカード5枚 */
+.news__card{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.hoge{
+    display: flex;
+    gap: 30px;
+    width: 1200px;
+    margin-bottom: 60px;
+}
+
+.news__card1{
+    background-color: rgb(251, 251, 247);
+    /* width: 00px;
+    height: auto; */
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0,0,.2);
+    margin: 30px;
+    padding: 20px;
+}
+/* カードの要素は写真と文章 */
+.news__card1_sentense{
+    /* background-color: peachpuff; */
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.news__card1_sentense_day{
+    font-size: 16;
+    margin-bottom: 24px;
+}
+.news__card1_sentense_sentence{
+    font-size: 16px;
+    line-height: 25px; 
+}
+
+/* 拡大のホバー */
+/* .news__card1:hover{transform: scale(1.2);
+}
+.news__card2:hover{transform: scale(1.2);
+}
+.news__card3:hover{transform: scale(1.2);
+}
+.news__card4:hover{transform: scale(1.2);
+}
+.news__card5:hover{transform: scale(1.2);
+} */
+
+
+.news__card2{
+    background-color: rgb(251, 251, 247);
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0,0,.2);
+    margin: 30px;
+    padding: 20px;
+    
+}
+.news__card2_sentense{
+    /* background-color: peachpuff; */
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.news__card2_sentense_day{
+    font-size: 16;
+    margin-bottom: 24px;
+}
+.news__card2_sentense_sentence{
+    font-size: 16px;
+    line-height: 25px; 
+}
+.news__card3{
+    background-color: rgb(251, 251, 247);
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0,0,.2);
+    margin-bottom: 60px;
+    margin: 30px;
+    padding: 20px;
+}
+.news__card3_sentense{
+    /* background-color: peachpuff; */
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.news__card3_sentense_day{
+    font-size: 16;
+    margin-bottom: 24px;
+}
+.news__card3_sentense_sentence{
+    font-size: 16px;
+    line-height: 25px; 
+}
+.news__card4{
+    background-color: rgb(251, 251, 247);
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0,0,.2);
+    margin: 30px;
+    padding: 20px;
+    
+}
+.news__card4_sentense{
+    /* background-color: peachpuff; */
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.news__card4_sentense_day{
+    font-size: 16;
+    margin-bottom: 24px;
+}
+.news__card4_sentense_sentence{
+    font-size: 16px;
+    line-height: 25px; 
+}
+.news__card5{
+    background-color: rgb(251, 251, 247);
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0,0,.2);
+    margin: 30px;
+    padding: 20px;
+    
+}
+.news__card5_sentense{
+    /* background-color: peachpuff; */
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.news__card5_sentense_day{
+    font-size: 16;
+    margin-bottom: 24px;
+}
+.news__card5_sentense_sentence{
+    font-size: 16px;
+    line-height: 25px; 
+}
+
+/* ⭐︎中央揃えができない 文字にpaddingとmarginを付けて対応*/
+/* .news__more{
+    background-color: rgb(215, 215, 14);
+    width: 300px;
+    height: 60px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;  
+} */
+/* .news__more{
+    background-color: antiquewhite;
+    width: 100px;
+    height: 20px;
+    text-align: center; 
+    flood-color: black; 
+} */
+.news__more a{
+    background-color: rgb(215, 215, 14);
+    text-decoration: none;
+    color: white; 
+    font-size: 18px;
+    padding: 20px 110px;
+    display: flex;
+    justify-content: center;
+    margin: 0 450px;
+    /* 色が変わるホバーにする */
+    transition: .3s;
+}
+.news__more a:hover{
+    background: #707070;
+}
+    
+/* accessは全体と３要素 */
+.access{
+    background-color: rgb(251, 251, 247) ;
+    width: auto;
+    height: auto;
+    margin-bottom: 60px;
+}
+/* タイトル全体 */
+.access__title{
+    text-align: center;
+}
+.access__title_en{
+    color: black;
+    font-size: 24px;
+    padding-top: 60px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.access__title_jn{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.access__map{
+    margin-bottom: 60px;
+    position: relative;
+    /* width: 100%;
+    padding-top: 75%; */
+}
+/* レスポンシブうまくいかない */
+.acccess__map iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.access__info{
+    display: flex;
+    justify-content: center;
+    margin: 60 auto;
+}
+.access__info table th{
+    padding: 16px 30px;
+    text-align: left;
+    font-size: 18px;
+    /* border:double 5px black; */
+}
+.access__info table{
+    margin-bottom: 60px;
+}
+
+/* contactは全体と２要素 */
+.contact{
+    /* background-color: orange; */
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+/* aboutのところとほぼ同じ */
+
+.contact__title{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.contact__headline{
+    font-size: 18px;
+    margin-top: 30px;}
+
+.contact__sentense_1 {
+    font-size: 16px;
+    margin-top: 60px;
+    line-height: 25px;
+}
+.contact__sentense_2 {
+    font-size: 16px;
+    margin-top: 40px;
+    line-height: 25px;
+    margin-bottom: 70px;
+}
+
+.footer{
+    margin-top: 140px;
+    background-color: #707070;
+    width: auto;
+    height: 76px;
+    font-size: 20px;
+    text-align: center;
+}
+.footer p{
+    /* background-color: antiquewhite; */
+    width: 600px;
+    height: 16px;
+    font-size: 16px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0 auto;  
+}
+/* フォーム全体640px tableで横のborderはなし
+border幅328Px高さ36px #bfbfbf*/
+/* marginbottom30 */
+.contact_table{
+    width: 640;
+    height: auto;
+    margin: 0 auto;
+    border-top: 3px solid #bfbfbf;
+}
+.contact_item{
+    /* background-color: antiquewhite; */
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 64px;
+    border: 1px solid #bfbfbf;
+    text-align: left;
+    vertical-align: top;
+    width: 240px;
+    height: 52px;
+    line-height: 25px;
+    border-left: none;
+}
+.contact_body{
+    background-color: white;
+    padding: 8Px;
+    border: 1px solid #bfbfbf;
+    width: 400px;
+    text-align: left;
+    height: auto;
+    padding: 8px;
+    border-right: none;
+}
+.form_text{
+    width: 328px;
+    height: 36px;
+    margin: 8px;
+}
+/* セレクトの枠同じ設定やのに、なぜか小さくなる */
+.form_select{
+    width: 335px;
+    height: 41px;
+    margin: 8px;
+    /* padding: 1px 2px; */
+}
+
+.contact_motive{
+    display: block;
+    margin-bottom: 24px;
+    margin-top: 16px;
+}
+.form_textarea{
+    width: 328px;
+    height: auto;
+    margin: 8px;
+}
+.contact_submit{
+   color:white;
+   margin-top: 30px;
+   width: 300px;
+   height: 60px;
+   font-size: 18px;
+   background-color:  rgb(215, 215, 14);
+   border: none;
+   transition: .3s;
+}
+.contact_submit:hover{
+    background: #707070;
+}
+
+/* フォームのタイトル部分 */
+/* 幅240px 左の余白16px 右64px */
+
+/* フォームのパーツ部分*/
+/* 幅400px  */
+/* 線同士の余白は８px */
+/* 志望動機は複数選択可能で */
+/* 送信ボタンはMoreボタンと外観は一緒 */
+
