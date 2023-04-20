@@ -26,4 +26,5 @@ JSはまだまだ勉強が必要なので頑張ります！
 
 [おすすめサイト]
 https://aya404.com/blog/develop/167_a-href-jquery/
+https://goworkship.com/magazine/text-effect-typography/#30
 
