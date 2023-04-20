@@ -24,4 +24,6 @@ gapとpaddigなどで整えた。
 [感想]
 JSはまだまだ勉強が必要なので頑張ります！
 
-[参考サイト]
+[おすすめサイト]
+https://aya404.com/blog/develop/167_a-href-jquery/
+
