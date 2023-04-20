@@ -295,6 +295,7 @@
     gap: 30px;
 }
 .hoge{
+    /* ここの設定でカードの大きさがちゃんとなった */
     display: flex;
     gap: 30px;
     width: 1200px;
@@ -308,6 +309,7 @@
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0,0,.2);
+    /* 以下を追加で綺麗になった */
     margin: 30px;
     padding: 20px;
 }
